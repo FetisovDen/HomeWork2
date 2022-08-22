@@ -4,14 +4,14 @@ public class Main {
 
  // Задание 1
 
-byte a = 1;
-short b = 2;
-int c = 3;
-long d = 5L;
-double e = 1.59;
-float f = 1.67f;
-char g = 'o';
-boolean h = c > 2;
+byte a1 = 1;
+short b1 = 2;
+int c1 = 3;
+long d1 = 5L;
+double e1 = 1.59;
+float f1 = 1.67f;
+char g1 = 'o';
+boolean h1 = c1 > 2;
 
 // Задание 2
 double firstBoxerWeight = 78.2;
@@ -79,8 +79,27 @@ double DenisInYear2 = DenisEarn2 * 12;
 double DenisDifference = DenisInYear2 - DenisInYear1;
 System.out.println("Маша теперь получает: " + DenisEarn2 + " рублей. Годовой доход вырос на: " + DenisDifference + " рублей");
 
+//Задание 6*
+byte a = 12;
+byte b = 27;
+byte c = 44;
+byte d = 15;
+byte e = 9;
+int result = a * (b + (c - d * e));
+int newResult = result * -1;
+System.out.println(newResult);
 
+// Задание 7*
+byte A = 5;
+byte B = 7;
+System.out.println("a=" +A * 7 / 5);
+System.out.println("b=" +B * 5 / 7);
 
+// Задание 8*
+int A1 = 999;
+int B1 = (A1/10)%10;
+System.out.println("a=" + A1);
+System.out.println("b=" + B1);
 
 
 
